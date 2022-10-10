@@ -1,28 +1,27 @@
 :root {
-  --color-header-white: #ffffff;
-  --backgroud-all-page: #ffffff;
-  --background-color: #eeeeee;
-  --primary-black-color: #212121;
-  --primary-blue-color: #2196f3;
-  --master-section-color-bg-: #2f303a;
-  --desciption-color: #757575;
-  --address-footer: #ffffff;
-  --black-zero: #000000;
-  --bottom-rgba-grey: rgba(255, 255, 255, 0.6);
-  --our-team-background: #f5f4fa;
+  /* evething-all-colors index.html and portfolio.html*/
+  --web-hover-button-up-down: #2196F3;
+  --Studio-black-000000:#000000;
+  --nav-studio-portfolio-contact: #212121;
+  --nav-address-email-phone-p-: #757575;
+  --main-white-color-h: #FFFFFF;
+
+
+  /* lower-section-navigation  */
+
+
 
   /* portfolio */
-  --blue: #2196f3;
-  --black: #000000;
-  --black212121: #212121;
-  --whiteFFFF: #ffffff;
+  --portfolio-bottons-color: #F5F4FA;
+
+
+
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--backgroud-all-page);
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: #000;
 }
 
@@ -30,276 +29,18 @@ ul {
   list-style-type: none;
 }
 
-.top-main {
-  background-color: var(--address-footer);
-}
-/* 
-.navigation-list {
-  
-} */
 
-/* ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ */
-.hero {
-  background-color: var(--master-section-color-bg-);
-  width: auto;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-}
 
-.hero-title {
-  color: var(--address-footer);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
 
-.hero-button {
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
-  color: var(--address-footer);
-  background-color: var(--primary-blue-color);
-}
 
-.hero-button:hover {
-  background-color: #188ce8;
-}
+/* nav top web blue; studio black */
 
-.hero-button:focus {
-  background-color: #188ce8;
-}
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 
-.strong-sides-items p {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  color: var(--desciption-color);
-}
 
-.strong-sides-items h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  text-transform: uppercase;
-  color: var(--primary-black-color);
-}
 
-/* Чим ми займаємося */
-.middle-center h2,
-.our-team h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  color: var(--primary-black-color);
-}
 
-.our-team {
-  background-color: var(--our-team-background);
-}
+/* nav down web blue; studio white */
 
-.our-team li {
-  background-color: white;
-}
 
-.our-team-list h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  letter-spacing: 0.03em;
-  color: var(--primary-black-color);
-}
 
-.our-team-list p {
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  color: var(--desciption-color);
-}
 
-/* portfolio styles */
-
-.top-main {
-  background-color: var(--address-footer);
-}
-
-.web-s {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-}
-
-.web-s-blue {
-  color: var(--blue);
-}
-
-.web-s-black {
-  color: var(--black);
-}
-
-.navigation-items:hover {
-  color: var(--blue);
-}
-
-.navigation-items {
-  text-decoration: none;
-  color: var(--black);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-}
-
-.navigation-items-ad {
-  text-decoration: none;
-  color: var(--desciption-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-}
-
-.navigation-items-ad:hover {
-  color: var(--blue);
-}
-
-.gallery-bt-list button {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  color: var(--black212121);
-  border-radius: 4px;
-}
-
-.gallery-bt-list button:hover {
-  background-color: var(--blue);
-  color: var(--whiteFFFF);
-  border-radius: 4px;
-}
-
-.gi-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
-  color: var(--black212121);
-}
-
-footer {
-  background-color: var(--master-section-color-bg-);
-  text-decoration: none;
-}
-
-address {
-  font-style: unset;
-}
-
-.gallery-links {
-  text-decoration: none;
-}
-
-.gallery-links h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
-  color: var(--black212121);
-}
-
-.gallery-links p {
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
-  color: var(--desciption-color);
-}
-
-/* footer */
-.bottom-list a:hover {
-  color: var(--primary-blue-color);
-}
-
-.bottom-list {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.web-s {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-}
-
-.web-s-blue {
-  color: var(--primary-blue-color);
-}
-
-.web-s-black {
-  color: var(--black-zero);
-}
-
-.bottom-items-map {
-  color: var(--address-footer);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  color: #ffffff;
-}
-
-.navigation-items:hover {
-  color: var(--primary-blue-color);
-}
-
-.navigation-items {
-  font-weight: 500;
-}
-
-.bottom-items {
-  background-color: var(--master-section-color-bg-);
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  text-decoration: none;
-}
-
-.web-s-blue-button .web-s-button {
-  font-family: "Raleway", sans-serif;
-}
-
-.web-s-blue-button {
-  color: var(--primary-blue-color);
-}
-
-.web-s-button {
-  color: var(--address-footer);
-}
-
-.bottom-items {
-  text-decoration: none;
-  color: var(--bottom-rgba-grey);
-  background-color: var(--master-section-color-bg-);
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  text-decoration: inherit;
-}
