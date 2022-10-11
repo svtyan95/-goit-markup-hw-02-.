@@ -179,8 +179,9 @@ ul {
 .main-team {
   background-color: var(--portfolio-bottons-color);
 }
+
 .team-header {
-  ont-weight: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--nav-studio-portfolio-contact);
