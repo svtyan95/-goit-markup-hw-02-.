@@ -82,6 +82,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--nav-address-email-phone-p-);
   text-decoration: inherit;
+  font-style: normal;
 }
 
 .nav-menu-items-info:hover,
@@ -95,6 +96,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-white-color-h);
   text-decoration: inherit;
+  font-style: normal;
 }
 
 .nav-menu-items-map:hover,
