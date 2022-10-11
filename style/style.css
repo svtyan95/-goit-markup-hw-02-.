@@ -40,7 +40,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -79,6 +78,17 @@ ul {
 
 /* address and email everywhere on both pages studio and portfolio */
 
+
+/* TOP EMAILS AND PHONE  */
+.nav-menu-items-info-top {
+  color: var(--nav-address-email-phone-p-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  text-decoration: inherit;
+}
+
 .nav-menu-items-info {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -89,7 +99,9 @@ ul {
 }
 
 .nav-menu-items-info:hover,
-.nav-menu-items-info:focus {
+.nav-menu-items-info:focus,
+.nav-menu-items-info-top:hover,
+.nav-menu-items-info-top:focus {
   color: var(--blue-bg-button);
 }
 
@@ -232,7 +244,8 @@ footer {
 }
 
 .sort-btn:hover,
-.sort-btn:active {
+.sort-btn:active,
+.sort-btn:focus {
   background-color: var(--web-hover-button-up-down);
   color: var(--main-white-color-h) ;
 }
