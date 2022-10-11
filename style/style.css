@@ -237,12 +237,6 @@ footer {
   color: var(--main-white-color-h) ;
 }
 
- {
-  background-color: var(--web-hover-button-up-down);
-  color: var(--main-white-color-h) ;
-
-}
-
 /* gallery photos */
 
 a {
@@ -253,7 +247,7 @@ a {
   text-decoration:none; 
 }
 
-.gallery-head{
+.gallery-head {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
