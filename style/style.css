@@ -1,45 +1,44 @@
 :root {
   /* evething-all-colors index.html and portfolio.html*/
-  --web-hover-button-up-down: #2196F3;
-  --Studio-black-000000:#000000;
+  --web-hover-button-up-down: #2196f3;
+  --Studio-black-000000: #000000;
   --nav-studio-portfolio-contact: #212121;
   --nav-address-email-phone-p-: #757575;
-  --main-white-color-h: #FFFFFF;
+  --main-white-color-h: #ffffff;
+  --header-button-active: #188ce8;
 
-  
   /* lower-section-navigation  */
-  --nav-backgroud-main: #2F303A;
+  --nav-backgroud-main: #2f303a;
 
   /* portfolio */
-  --portfolio-bottons-color: #F5F4FA;
-  --blue-bg-button: #2196F3;
-  --stroke: #EEEEEE; 
+  --portfolio-bottons-color: #f5f4fa;
+  --blue-bg-button: #2196f3;
+  --stroke: #eeeeee;
 }
 
-
-
+/* MAIN STYLES */
+* {
+  text-decoration: none;
+}
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--main-white-color-h);
   letter-spacing: 0.03em;
   color: #000;
-  text-decoration: none;
 }
 
 ul {
   list-style-type: none;
 }
 
-
-
 /* NAVIGATION TOP & DOWN : STUDION AND PORTFOLIO */
-.logo{
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: calc(31 / 26);
-letter-spacing: 0.03em;
-text-decoration: none;
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-web-blue {
@@ -47,40 +46,59 @@ text-decoration: none;
 }
 
 .logo-web-black {
-  color: var(--Studio-black-000000)
+  color: var(--Studio-black-000000);
 }
 
 /* NAVIGATION DOWN : WHERE STUDIO WHITE COLOR */
 .logo-studio-white {
-  color:var(--main-white-color-h)
+  color: var(--main-white-color-h);
 }
 
 /* STUDIO | PORTFOLIO | CONTACT */
 .nav-menu-items {
-font-weight: 500;
-font-size: 14px;
-line-height: calc(16 / 14);
-letter-spacing: 0.02em;
-color: var(--nav-studio-portfolio-contact);
-text-decoration: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--nav-studio-portfolio-contact);
+  text-decoration: inherit;
 }
 
-.nav-menu-items:hover, :focus {
-color: var(--blue-bg-button);
+.nav-menu-items:hover {
+  color: var(--blue-bg-button);
+}
+
+/* current */
+.nav-menu .current {
+  color: var(--web-hover-button-up-down);
 }
 
 /* address and email everywhere on both pages studio and portfolio */
 
 .nav-menu-items-info {
-font-weight: 500;
-font-size: 14px;
-line-height: calc(16 / 14);
-letter-spacing: 0.02em;
-color: var(--nav-address-email-phone-p-);
-text-decoration: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--nav-address-email-phone-p-);
+  text-decoration: inherit;
 }
 
-.nav-menu-items-info:hover, :focus {
+.nav-menu-items-info:hover,
+:focus {
+  color: var(--blue-bg-button);
+}
+
+.nav-menu-items-map {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--main-white-color-h);
+  text-decoration: inherit;
+}
+
+.nav-menu-items-map:hover,
+:focus {
   color: var(--blue-bg-button);
 }
 
@@ -98,3 +116,121 @@ text-decoration: inherit;
   margin: -1px;
 }
 
+/* Ефективні рішення для вашого бізнесу */
+.main-header {
+  background-color: var(--nav-backgroud-main);
+}
+
+.main-header-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color-h);
+}
+
+.main-header-button {
+  background-color: var(--web-hover-button-up-down);
+  border-radius: 4px;
+  color: var(--main-white-color-h);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+}
+
+.main-header-button:hover,
+:focus {
+  background-color: var(--header-button-active);
+}
+
+.main-header-button:focus {
+  background-color: var(--header-button-active);
+}
+
+/* OUR STRONG SIDES SECTION */
+.middle-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--nav-studio-portfolio-contact);
+}
+
+.middle-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--nav-address-email-phone-p-);
+}
+
+/* Чим ми займаємося */
+.header-pictures-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--nav-studio-portfolio-contact);
+}
+
+/* Наша команда */
+.main-team {
+  background-color: var(--portfolio-bottons-color);
+}
+.team-header {
+  ont-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--nav-studio-portfolio-contact);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--nav-studio-portfolio-contact);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--nav-address-email-phone-p-);
+}
+
+/* footer of web page */
+footer {
+  background-color: #2f303a;
+}
+
+/* Портфоліо page stulyes */
+.sort-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  border-radius: 4px;
+  color: var(--nav-studio-portfolio-contact);
+  background-color: var(--portfolio-bottons-color);
+}
+
+.sort-btn:hover {
+  background-color: var(--web-hover-button-up-down);
+}
+
+.sort-btn:active {
+  background-color: var(--web-hover-button-up-down);
+}
+
+/* gallery photos */
+
+.gallery-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--nav-studio-portfolio-contact);
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--nav-address-email-phone-p-);
+}
