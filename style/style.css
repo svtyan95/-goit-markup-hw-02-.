@@ -24,7 +24,8 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-white-color-h);
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--Studio-black-000000);
+  text-decoration: none;
 }
 
 ul {
@@ -131,6 +132,7 @@ ul {
 }
 
 .main-header-button {
+  font-family: inherit;
   background-color: var(--web-hover-button-up-down);
   border-radius: 4px;
   color: var(--main-white-color-h);
@@ -202,7 +204,9 @@ footer {
 }
 
 /* Портфоліо page stulyes */
+
 .sort-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
