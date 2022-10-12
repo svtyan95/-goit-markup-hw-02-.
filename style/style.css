@@ -16,7 +16,7 @@
   --stroke: #eeeeee;
 
   /* RGBA */
-  --RGBA-down-section-email-phone: rgba(255, 255, 255, 0.6); 
+  --RGBA-down-section-email-phone: rgba(255, 255, 255, 0.6);
 }
 
 /* MAIN STYLES */
@@ -31,8 +31,6 @@ body {
 ul {
   list-style-type: none;
 }
-
-
 
 /* NAVIGATION TOP & DOWN : STUDION AND PORTFOLIO */
 .logo {
@@ -77,7 +75,6 @@ ul {
 }
 
 /* address and email everywhere on both pages studio and portfolio */
-
 
 /* TOP EMAILS AND PHONE  */
 .nav-menu-items-info-top {
@@ -171,11 +168,9 @@ ul {
 }
 
 .main-header-button:active {
-background-color: var(--header-button-active);
-color: var(--main-white-color-h);
-
+  background-color: var(--header-button-active);
+  color: var(--main-white-color-h);
 }
-
 
 /* OUR STRONG SIDES SECTION */
 .middle-header {
@@ -212,19 +207,22 @@ color: var(--main-white-color-h);
   color: var(--nav-studio-portfolio-contact);
 }
 
+/* LI - це background colfor for section team  */
+.team-item {
+  background-color: var(--main-white-color-h);
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--nav-studio-portfolio-contact);
-  background-color: var(--main-white-color-h);
 }
 
 .team-position {
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--nav-address-email-phone-p-);
-  background-color: var(--main-white-color-h);
 }
 
 /* footer of web page */
@@ -235,6 +233,7 @@ footer {
 /* Портфоліо page stulyes */
 
 .sort-btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -248,7 +247,7 @@ footer {
 .sort-btn:active,
 .sort-btn:focus {
   background-color: var(--web-hover-button-up-down);
-  color: var(--main-white-color-h) ;
+  color: var(--main-white-color-h);
 }
 
 /* gallery photos */
@@ -258,7 +257,7 @@ a {
 }
 
 .gallery-link {
-  text-decoration:none; 
+  text-decoration: none;
 }
 
 .gallery-head {
